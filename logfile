@@ -1,0 +1,4 @@
+LOG:  database system was shut down at 2015-04-28 17:04:45 CLT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "endpointapi_development" does not exist
