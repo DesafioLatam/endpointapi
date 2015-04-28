@@ -3,7 +3,7 @@ lock '3.4.0'
 
 set :application, 'endpointapi'
 set :scm, :git
-set :repo_url, 'git@bitbucket.org:jCrip/endpointapi.git'
+set :repo_url, 'git@github.com:DesafioLatam/endpointapi.git'
 set :branch, 'master'
 set :deploy_via, :copy
 set :user, 'deploy'
