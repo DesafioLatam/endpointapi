@@ -2,3 +2,55 @@ LOG:  database system was shut down at 2015-04-28 17:04:45 CLT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 FATAL:  database "endpointapi_development" does not exist
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-06-05 20:45:53 CLT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-06-10 21:43:32 CLT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "AngularRails_development" does not exist
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+FATAL:  role "radd" does not exist
+FATAL:  role "postgres" does not exist
+ERROR:  database "radd_development" already exists
+STATEMENT:  CREATE DATABASE "radd_development" ENCODING = 'utf8'
+ERROR:  database "radd_development" already exists
+STATEMENT:  CREATE DATABASE "radd_development" ENCODING = 'utf8'
+ERROR:  database "radd_development" already exists
+STATEMENT:  CREATE DATABASE "radd_development" ENCODING = 'utf8'
+ERROR:  database "radd_development" already exists
+STATEMENT:  CREATE DATABASE "radd_development" ENCODING = 'utf8'
+ERROR:  database "radd_development" already exists
+STATEMENT:  CREATE DATABASE "radd_development" ENCODING = 'utf8'
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-07-09 22:12:15 CLT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down

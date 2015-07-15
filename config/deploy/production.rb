@@ -8,5 +8,5 @@ role :db, %w{deploy@104.236.63.176}
 # definition into the server list. The second argument
 # something that quacks like a hash can be used to set
 # extended properties on the server.
-server '104.236.63.176', user: 'deploy', roles: %w{web app}, my_property: :my_value
+server '104.236.63.176', user: 'deploy', roles: %w{web app db}
 set :stage, :production

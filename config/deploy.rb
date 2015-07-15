@@ -19,16 +19,21 @@ namespace :deploy do
       execute :touch, release_path.join('tmp/restart.txt')
     end
   end
+
   after :publishing, 'deploy:restart'
   after :finishing, 'deploy:cleanup'
 end
 
-namespace :deploy do
-
-  after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
-
+namespace :tasks do
+  desc 'Rake assets:clean'
+  task :clean do
+    on roles(:app) do
+      within "#{current_path}" do
+        with rails_env: :production do
+          execute :rake, 'assets:clean'
+          execute :touch, release_path.join('tmp/restart.txt')
+        end
+      end
     end
   end
-
 end

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.2.1'
+gem 'rails', '4.2.3'
 
 gem 'rails-api'
 
@@ -11,14 +11,19 @@ gem 'rack-cors'
 
 gem 'pg'
 
+gem 'active_model_serializers'
+
 group :development do
   gem 'pry-rails'
   gem 'rspec-rails'
+  gem 'quiet_assets'
+  gem 'better_errors'
+  gem 'faker'
 
   gem 'capistrano'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
-  gem 'capistrano-rvm', github: 'capistrano/rvm'
+  gem 'capistrano-rvm'
   gem 'capistrano-ssh-doctor'
 end
 
